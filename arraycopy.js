@@ -10,7 +10,6 @@
 
 //Original box with nested smaller boxes
 const originalBox = [1, [2, 3]];
-
 //shallow copy using slice method
 const Shallowcopybox = originalBox.slice();
 
