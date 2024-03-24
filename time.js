@@ -1,6 +1,6 @@
 let newDate = new Date()
 
 Math.floor(newDate.toLocaleString('default', {
-    weekday: "narrow"
+    weekday: "long"
 }))
 console.log(newDate)
