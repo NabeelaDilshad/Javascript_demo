@@ -1,8 +1,16 @@
 Git—
 
-
 git config —global user.name 
-— to show 
+— to show user name 
+
+git config —global user.email
+— to show user email
+
+git config —global user.name “your name “
+— to set git account to github
+
+git config —global user.email “your email “
+— to set git account to github
 
 git init 
 — intialise git ( version control system to local machine)
