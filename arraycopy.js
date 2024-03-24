@@ -28,7 +28,7 @@ console.log(Shallowcopybox);
 // So, if you change something in one of the smaller bags in the new bag,
 //  it won't affect the original bag because they are completely separate
 
-//example....
+//example....2
 //Original array
 const Originalarray = [1, 2, [3, 4]];
 
@@ -38,5 +38,6 @@ const deepCopyArray = JSON.parse(JSON.stringify(Originalarray));
 //MODify deep array
 deepCopyArray[2][0] = 999;
 console.log(deepCopyArray);
+
 
 
