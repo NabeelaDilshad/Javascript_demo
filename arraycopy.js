@@ -28,7 +28,7 @@ console.log(Shallowcopybox);
 // So, if you change something in one of the smaller bags in the new bag,
 //  it won't affect the original bag because they are completely separate
 
-//example....2
+//example....2.
 //Original array
 const Originalarray = [1, 2, [3, 4]];
 
